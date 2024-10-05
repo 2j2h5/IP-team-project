@@ -14,7 +14,7 @@ const int POINT_COLOR[3] = { 7, 65, 102 };
 
 /*
 COLOR TABLE
-used identify each pixels color in buffer, if you want to how it use see writeImage().
+used identify each pixels color in buffer, if you want to how it use see checkColor().
 
 0 unknown
 1 squid background
