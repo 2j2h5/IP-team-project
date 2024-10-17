@@ -139,10 +139,6 @@ void sharpenPoints(CxImage& image) {
     }
 }
 
-void antialiasing(CxImage& image) {
-
-}
-
 int*** getZeroBuffer(DWORD height, DWORD width) {
     int*** buffer = new int** [height]; //buffer[height][width][rgb]
     for (DWORD y = 0; y < height; y++) {
